@@ -14,7 +14,7 @@ public class Main {
         percussion.play();
 
 
-
+        System.out.println(Instrument.color);
 
     }
 
