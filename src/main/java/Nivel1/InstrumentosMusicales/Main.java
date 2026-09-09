@@ -7,12 +7,15 @@ public class Main {
         StringInstrument string = new StringInstrument("string", 1000);
         PercussionInstrument percussion = new PercussionInstrument("percussion", 850);
 
+
+
         wind.play();
-
         string.play();
-
         percussion.play();
-    }
 
+
+
+
+    }
 
 }

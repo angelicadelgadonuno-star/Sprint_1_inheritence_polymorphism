@@ -1,9 +1,10 @@
 package Nivel1.InstrumentosMusicales;
 
-public class Instrument {
+abstract class Instrument {
 
     private String name;
     private int price;
+    public static String color = "pink";
 
     public Instrument(String name, int price) {
         this.name = name;
@@ -12,6 +13,5 @@ public class Instrument {
     }
 
     public void play() {
-
     }
 }
