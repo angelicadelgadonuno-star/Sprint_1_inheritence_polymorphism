@@ -16,5 +16,4 @@ public class Car {
         return "The car is accelerating";
     }
 
-
 }
