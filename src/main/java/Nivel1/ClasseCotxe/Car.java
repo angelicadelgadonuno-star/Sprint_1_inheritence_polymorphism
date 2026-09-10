@@ -6,5 +6,9 @@ public class Car {
     static String model =  "EX60";
     static final int power = 680;
 
+    public Car(String brand, String model, int power) {
+    }
+
+
 
 }
