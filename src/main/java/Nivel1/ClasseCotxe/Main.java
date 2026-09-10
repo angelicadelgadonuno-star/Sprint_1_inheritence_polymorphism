@@ -14,7 +14,8 @@ public class Main {
 
         Car.model = "Corolla";
 
-
+        System.out.println("The model of the car is " + Car.model);
+        System.out.println("The brand of the car is" + Car.BRAND);
 
     }
 }
