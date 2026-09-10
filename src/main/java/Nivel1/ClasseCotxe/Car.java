@@ -9,6 +9,9 @@ public class Car {
     public Car(String brand, String model, int power) {
     }
 
+    public static String brake(){
+        return "The Car is braking";
+    }
 
 
 }
