@@ -2,11 +2,12 @@ package Nivel1.ClasseCotxe;
 
 public class Car {
 
-    static final String brand = "Volvo";
-    static String model =  "EX60";
-    static final int power = 680;
+    public static final String BRAND = "Volvo";
+    public static String model = "EX360";
+    public final int power;
 
-    public Car(String brand, String model, int power) {
+    public Car(int power) {
+        this.power = power;
     }
 
     public static String brake(){

@@ -5,14 +5,16 @@ public class Main {
 
         Car.brake();
 
-        Car car = new Car ( "Volvo", "EX360", 680 );
+        Car car = new Car (650);
+        Car car1 = new Car(450);
 
-        car.accelerate();
+        System.out.println(car.accelerate());
 
         System.out.println(Car.brake());
 
-        System.out.println(Car.brand);
-        System.out.println(Car.model);
-        System.out.println(Car.power);
+        Car.model = "Corolla";
+
+
+
     }
 }
