@@ -7,7 +7,7 @@ public class Main {
 
         Car car = new Car ( "Volvo", "EX360", "680" );
 
-
+        car.accelerate();
 
     }
 }
