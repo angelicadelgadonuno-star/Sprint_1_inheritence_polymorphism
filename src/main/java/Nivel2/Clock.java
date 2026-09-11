@@ -2,6 +2,6 @@ package Nivel2;
 
 public interface Clock  {
 
-    void alarmSounding ();
+    public void alarmSounding ();
 
 }
