@@ -5,7 +5,9 @@ public class main{
 
         Smartphone smartphone = new Smartphone("Oppo", "N2 Flip");
 
-
+        smartphone.call (605547742);
+        smartphone.alarmSounding();
+        smartphone.takePhoto();
 
     }
 }
