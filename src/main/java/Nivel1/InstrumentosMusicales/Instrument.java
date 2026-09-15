@@ -12,6 +12,5 @@ abstract class Instrument {
 
     }
 
-    public void play() {
-    }
+    public abstract void play();
 }
