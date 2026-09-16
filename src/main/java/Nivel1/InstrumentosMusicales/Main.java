@@ -16,6 +16,6 @@ public class Main {
         System.out.println("The color  of the String Instrument is " + string.color);
         System.out.println("The color  of the Percussion Instrument is " + percussion.color);
 
-    } //TODO actualizar git
+    }
 
 }

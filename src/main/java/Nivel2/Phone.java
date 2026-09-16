@@ -11,7 +11,7 @@ public class Phone {
         this.model = model;
     }
 
-    public void call(int number){
+    public void call(String number){
        System.out.println("You´re calling the following number: " + number);
 
     }

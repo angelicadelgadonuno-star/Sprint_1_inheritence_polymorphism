@@ -8,6 +8,7 @@ public class Smartphone extends Phone implements Camera, Clock {
 
     @Override
     public void takePhoto() {
+
         System.out.println("A photo is being taken ");
     }
     @Override

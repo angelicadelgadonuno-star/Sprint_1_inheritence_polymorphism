@@ -10,12 +10,12 @@ public class Main {
 
         System.out.println(car.accelerate());
 
-        System.out.println(Car.brake());
+        System.out.println(car1.brake());
 
-        Car.model = "Corolla";
+        Car.model = " Corolla ";
 
         System.out.println("The model of the car is " + Car.model);
-        System.out.println("The brand of the car is" + Car.BRAND);
+        System.out.println("The brand of the car is " + Car.BRAND);
 
     }
 }
